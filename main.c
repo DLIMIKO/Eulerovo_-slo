@@ -5,7 +5,7 @@ int main()
 
    int n = 1;                                        // iter. číslo
    double eN = 1;                                    // hodnota e pre danú iter.
-   double factN1 = 1;                                // hodnota prírastku pre danú iter. , čiže (n+1)!
+   double factN1 = 1;                                // hodnota prírastku pre n+1-vú iter. , čiže (n+1)!
 
    printf("n\teN\t\t\t\t 1/factN1\n");               // hlavička výstupu
 
