@@ -6,7 +6,6 @@ int main()
 
    printf("\nProgram na aproximovanie eulerovho čísla:\n"); // úvodný text
    clock_t start, stop;
-   double cas_programu;
    int n = 1;                                           // iter. číslo
    double eN = 1;                                       // hodnota e pre danú iter.
    double factN1 = 1;                                   // hodnota prírastku pre n+1-vú iter. , čiže (n+1)!
