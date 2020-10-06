@@ -15,7 +15,7 @@ int main()
 
   start=clock();                                        // časová značka, začiatok merania času
 
-  while(1 / factN1 > 1e-10)                             // cyklus pracuje, pokiaľ je prírastok väčší ako 1e-10
+  while(1 / factN1 >= 1e-10)                            // cyklus pracuje, pokiaľ je prírastok väčší ako 1e-10
    {
       printf("%d",n);                                   // vypíše sa hodnota danej iterácie
       eN = eN + (1 / factN1);                           // k hodnote eN sa pripočíta prírastok
